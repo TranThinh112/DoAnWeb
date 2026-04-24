@@ -1,0 +1,5 @@
+git branch -a: Xem có branch tên mình ko
+git checkout -b (Tên Branch) origin/(Tên Branch) : Check out branch
+git branch: kiểm tra đang ở branch nào, *(Tên) là branch hiện tại
+ 	
+	** Đúng branch thì add rồi push code như bình thường **
