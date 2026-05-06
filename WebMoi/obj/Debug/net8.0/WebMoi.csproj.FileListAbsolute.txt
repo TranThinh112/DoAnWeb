@@ -65,3 +65,11 @@ C:\Users\Admin\Documents\doanWeb\webmoi\obj\Debug\net8.0\WebMoi.pdb
 C:\Users\Admin\Documents\doanWeb\webmoi\obj\Debug\net8.0\WebMoi.genruntimeconfig.cache
 C:\Users\Admin\Documents\doanWeb\webmoi\obj\Debug\net8.0\ref\WebMoi.dll
 C:\Users\Admin\Documents\doanWeb\webmoi\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Admin\Documents\doanWeb\WebMoi\bin\Debug\net8.0\DnsClient.dll
+C:\Users\Admin\Documents\doanWeb\WebMoi\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\Admin\Documents\doanWeb\WebMoi\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\Admin\Documents\doanWeb\WebMoi\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\Admin\Documents\doanWeb\WebMoi\bin\Debug\net8.0\Snappier.dll
+C:\Users\Admin\Documents\doanWeb\WebMoi\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Admin\Documents\doanWeb\WebMoi\obj\Debug\net8.0\WebMoi.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\doanWeb\WebMoi\obj\Debug\net8.0\WebMoi.csproj.Up2Date

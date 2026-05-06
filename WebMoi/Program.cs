@@ -1,7 +1,10 @@
+using WebMoi.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<MongoDbService>();
 
 var app = builder.Build();
 
@@ -22,7 +25,8 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+    );
 
 app.Lifetime.ApplicationStarted.Register(() =>
 {
@@ -31,4 +35,11 @@ app.Lifetime.ApplicationStarted.Register(() =>
         Console.WriteLine($"🌐 Server dang chay tai: {url}");
     }
 });
+
+app.MapGet("/", ()=>
+    {
+        return "Server dang chay";
+    }
+);
+app.MapControllers();
 app.Run();
