@@ -2,9 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-// builder.Services.AddDbContext<AppDbContext>(
-// ...
-// );
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,4 +24,11 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+app.Lifetime.ApplicationStarted.Register(() =>
+{
+    foreach (var url in app.Urls)
+    {
+        Console.WriteLine($"🌐 Server dang chay tai: {url}");
+    }
+});
 app.Run();
